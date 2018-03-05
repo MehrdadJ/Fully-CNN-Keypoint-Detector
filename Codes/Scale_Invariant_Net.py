@@ -26,5 +26,4 @@ if __name__=="__main__" :
     model.compile(loss=masked_loss(mask=mask) , optimizer=keras.optimizers.SGD(lr=lr))
     model.fit([x_train, mask],[y_train], batch_size=batch_size, epochs=epochs, verbose=1)
     
-    saveWeightsFile = '/home/mehrdad/sample/mdl_2500.hdf5'
-#     model.save_weights(savedWeightsFile)
+    saveWeightsFile = '/home/mehrdad/sample/mdl_2500.hdf5
